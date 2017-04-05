@@ -97,14 +97,28 @@ textarea {
    .footer{
     width: 100%;
     display: flex;
+    justify-content: space-around;
+    background-color: #191919;
+
    }
    .footer img{
     width: 5%;
    }
    .footer article{
-    width:30%;
+    width:23%;
    }
-  
+  .footer p{
+    font-size: 13px;
+    color: #fff;
+  }
+  .footer figure{
+    margin:0;
+  }
+  .footer h3{
+    font-size: 15px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+  }
 
 
 
