@@ -120,8 +120,41 @@ textarea {
     border-bottom: 1px solid #fff ;
   }
 
+   header {
+     display: flex;
+   }
 
+    #logo {
+      width: 141px;
+border-radius: 56px;
+box-shadow: 5px 6px 1px silver;
+    }
 
+nav {
+  width: 100%;
+display: flex;
+
+}
+
+nav ul {
+  display: flex;
+width: 100%;
+justify-content: space-between;
+list-style-type: none;
+align-items: center;
+border-top: 6px double black;
+border-bottom: 6px double black;
+margin-right: 3%;
+}
+
+nav ul li {
+  width: 15%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
 
 
 
