@@ -94,6 +94,34 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+ 
+
+  iframe{
+    border:0;
+    width: 100%;
+    height: 350px;
+    margin-top: 3em;
+  }
+
+  input, textarea, select, button {
+  margin: 0;
+
+  -webkit-box-sizing: border-box; /* Pour les anciennes versions des navigateurs WebKit */
+     -moz-box-sizing: border-box; /* Pour tous les navigateurs Gecko */
+          box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
    /*footer desktop*/
    .footer{

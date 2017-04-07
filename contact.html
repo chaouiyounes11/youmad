@@ -1,14 +1,17 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>YouMad</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
+         <link rel="icon" href="logo.jpg">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -20,6 +23,81 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+
+
+   
+
+      <fieldset id="containermad">
+            <legend>YouMad</legend>
+            <div class="cont1">
+            <h1>Agency YouMad</h1>
+
+            <h3>Making appointements:</h3>
+
+             <form>
+             <label for="radio"> Civility:</label>
+              <input type="radio" name="gender" value="male" checked> Male
+                <input type="radio" name="gender" value="female"> Female
+            </form> 
+
+            <form action="traitement.php" method="post">
+              <label for="text" > <i class="material-icons">face</i>first Name:</label>
+              <input type="text" name="text" id="text" placeholder="first-Name"">
+            </form>
+
+             <form action="traitement.php" method="post">
+              <label for="text1" ><i class="material-icons">face</i>last Name:</label>
+              <input type="text" name="text1" id="text1" placeholder="last-name">
+            </form>
+
+            <form action="traitement.php" method="post">
+              <label for="tel" ><i class="material-icons">phone</i>Phone:</label>
+              <input type="tel" name="tel" id="tel" placeholder="number:">
+            </form>
+
+             <form action="traitement.php" method="post">
+              <label for="mail" ><i class="material-icons">email</i>  Email:</label>
+              <input type="mail" name="mail" id="mail" placeholder="SimplonTaToo@gmail.com">
+            </form>
+
+            <form action="traitement.php" method="post">
+              <label for="password" > <i class="material-icons">security</i>Password:</label>
+              <input type="password" name="password" id="password" placeholder="password">
+            </form>
+
+            <form action="traitement.php" method="post">
+            <label for="text">Availability:</label>
+
+            <select name="Disponibility"> 
+              <option value="Monday" selected="Disponibility">Monday</option>
+              <option value="thuesday">Thuesday</option>
+              <option value="wednesday">Wednesday</option>
+              <option value="thurstday">Thursday</option>
+              <option value="Friday">Friday</option>
+            </select>
+
+            <select name="hour">
+            <option value="morning" selected="am">9h15-12h15</option>
+            <option value="pm">13h30-17h00</option>
+            </select>
+            </form>
+            <fieldset>
+
+            
+            <form action="traitement.php" method="post">
+              <label for="text"><i class="material-icons">comment</i>Comments:</label>
+              <textarea name="text" id="text" rows="10" cols="40"> your comment</textarea>
+            
+            <button type="button" onclick="alert('Bouton test');">
+            Send
+            </button>
+            </form>
+            </div>
+                
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2528.4761484101664!2d3.189543515739506!3d50.67398617950678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3287c59c98277%3A0xb94f7f54b271bd84!2s94+Rue+L%C3%A9on+Marlot%2C+59100+Roubaix!5e0!3m2!1sfr!2sfr!4v1491131468080"></iframe>
+            </section>
+           
+
 
 
         <!-- start footer -->
