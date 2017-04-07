@@ -134,6 +134,23 @@ nav {
   width: 100%;
 display: flex;
 
+<<<<<<< HEAD
+=======
+   header {
+     display: flex;
+   }
+
+    #logo {
+      width: 141px;
+border-radius: 56px;
+box-shadow: 5px 6px 1px silver;
+    }
+
+nav {
+  width: 100%;
+display: flex;
+
+>>>>>>> a2829be1fbca0c16df0b57655ce923de8afcd912
 }
 
 nav ul {
@@ -146,11 +163,19 @@ border-top: 6px double black;
 border-bottom: 6px double black;
 margin-right: 3%;
 }
+<<<<<<< HEAD
 
 nav ul li {
   width: 15%;
 }
 
+=======
+
+nav ul li {
+  width: 15%;
+}
+
+>>>>>>> a2829be1fbca0c16df0b57655ce923de8afcd912
 nav ul li a {
   text-decoration: none;
   color: black;
