@@ -95,6 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
    header {
      display: flex;
    }
@@ -124,22 +125,54 @@ margin-right: 3%;
 
 nav ul li {
   width: 15%;
+  display: flex;
+flex-direction: column;
 }
 
 nav ul li a {
   text-decoration: none;
   color: black;
+  display: flex;
+justify-content: center;
+}
+
+.material-icons {
+  display: flex;
+justify-content: center;
+margin-top: 2%;
+}
+
+.office{
+  margin: 0;
+  padding: 0;
+}
+
+.office img {
+  display: block;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 
 
+p {
+  border: 2px solid black;
+  padding: 4em;
+  margin: 1em;
+}
 
-
-
-
-
-
-
+.fake
+{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+height: 200px;
+width: 80%;
+margin: auto;
+}
 
 
 
