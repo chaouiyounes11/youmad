@@ -94,6 +94,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+   /*footer desktop*/
    .footer{
     width: 100%;
     display: flex;
@@ -133,6 +135,7 @@ box-shadow: 5px 6px 1px silver;
 nav {
   width: 100%;
 display: flex;
+/*end*/
 
 <<<<<<< HEAD
 =======
