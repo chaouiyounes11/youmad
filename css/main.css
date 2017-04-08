@@ -102,26 +102,44 @@ textarea {
     max-width: 100%;
    }
    body{
-    width: 90%;
+    width: 90% auto;
+   }
+   footer{
+    background-color: black;
+   }
+   footer h3{
+    color:orange;
+   }
+
+   footer p{
+    color: #fff;
    }
 
     #footermobnav{
       display: none;
     }
-    footer{
-      color: orange;
-    }
+
+  .footer{
+    display: flex;
+  }
+  .footer figure{
+    width: 10%;
+  }
+  .footer article{
+    width: 50%;
+
+  }
+
+
+  @media (min-width: 768px) {
+    
+  }
 
   
-  /*iframe{
-    border:0;
-    width: 90%;
-    height: 100%;
-    margin-top: 1em;
-  }*/
+ 
 
    /*footer desktop*/
-   .footer{
+  /* .footer{
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -139,8 +157,11 @@ textarea {
   .footer p{
     font-size: 13px;
     color: #fff;
+
   }
- 
+  input{
+    width: 25%;
+  }
   
    header {
      display: flex;
@@ -148,35 +169,33 @@ textarea {
 
     #logo {
       width: 141px;
-border-radius: 56px;
-box-shadow: 5px 6px 1px silver;
+      border-radius: 56px;
+      box-shadow: 5px 6px 1px silver;
     }
 
 nav {
   width: 100%;
 display: flex;
-}
+}*/
 /*end*/
 
 
-@media (min-width: 768px) {
-  #footermobnav>nav{
+/*@media (min-width: 768px) {
+  #footermobnav nav{
       display: block;
     }
 footer {
   display: flex;
-
   margin-top: 5px;
   height: ;
 }
 footer figure{
   height: 20px;
-  width: 30%;
+  width: 31%;
 }
 #footermobnav{
     width: 100%;
     display: flex;
-    justify-content: space-around;
     background-color: #191919;
 
    }
@@ -187,9 +206,9 @@ color: #fff;
 iframe{
     border:0;
     width: 50%;
-    margin-top: 3em;
+    margin-top: 5em;
   }
-}
+}*/
 
 
 
