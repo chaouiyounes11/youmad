@@ -27,61 +27,61 @@
 
    
 
-      <fieldset id="containermad">
-            <legend>YouMad</legend>
-            <div class="cont1">
-            <h1>Agency YouMad</h1>
+<fieldset>
+  <legend>YouMad</legend>
+  <div class="cont1">
+    <!-- <h1>Agency YouMad</h1> -->
+    <!-- <h3>Making appointements:</h3> -->
+    <form>
+      <label for="radio"> Civility:</label>
+      <input type="radio" name="gender" value="male" checked> Male
+      <input type="radio" name="gender" value="female"> Female
+    </form>
 
-            <h3>Making appointements:</h3>
+    <form action="traitement.php" method="post">
+      <label for="text" > <i class="material-icons">face</i>first Name:</label>
+      <input type="text" name="text" id="text" placeholder="first-Name"">
+      </form>
+    
 
-             <form>
-             <label for="radio"> Civility:</label>
-              <input type="radio" name="gender" value="male" checked> Male
-                <input type="radio" name="gender" value="female"> Female
-            </form> 
+    <form>
+      <label for="text1" ><i class="material-icons">face</i>last Name:</label>
+      <input type="text" name="text1" id="text1" placeholder="last-name">
+    </form>
 
-            <form action="traitement.php" method="post">
-              <label for="text" > <i class="material-icons">face</i>first Name:</label>
-              <input type="text" name="text" id="text" placeholder="first-Name"">
-            </form>
 
-             <form action="traitement.php" method="post">
-              <label for="text1" ><i class="material-icons">face</i>last Name:</label>
-              <input type="text" name="text1" id="text1" placeholder="last-name">
-            </form>
+    <form>
+      <label for="tel" ><i class="material-icons">phone</i>Phone:</label>
+      <input type="tel" name="tel" id="tel" placeholder="number:">
+    </form>
+    
+      <form>
+      <label for="mail" ><i class="material-icons">email</i>  Email:</label>
+      <input type="mail" name="mail" id="mail" placeholder="SimplonTaToo@gmail.com">
+      </form>
+  
+      <form>
+      <label for="password" > <i class="material-icons">security</i>Password:</label>
+      <input type="password" name="password" id="password" placeholder="password">
+    </form>
 
-            <form action="traitement.php" method="post">
-              <label for="tel" ><i class="material-icons">phone</i>Phone:</label>
-              <input type="tel" name="tel" id="tel" placeholder="number:">
-            </form>
 
-             <form action="traitement.php" method="post">
-              <label for="mail" ><i class="material-icons">email</i>  Email:</label>
-              <input type="mail" name="mail" id="mail" placeholder="SimplonTaToo@gmail.com">
-            </form>
 
-            <form action="traitement.php" method="post">
-              <label for="password" > <i class="material-icons">security</i>Password:</label>
-              <input type="password" name="password" id="password" placeholder="password">
-            </form>
-
-            <form action="traitement.php" method="post">
-            <label for="text">Availability:</label>
-
-            <select name="Disponibility"> 
-              <option value="Monday" selected="Disponibility">Monday</option>
-              <option value="thuesday">Thuesday</option>
-              <option value="wednesday">Wednesday</option>
-              <option value="thurstday">Thursday</option>
-              <option value="Friday">Friday</option>
-            </select>
-
-            <select name="hour">
-            <option value="morning" selected="am">9h15-12h15</option>
-            <option value="pm">13h30-17h00</option>
-            </select>
-            </form>
-            <fieldset>
+    <form action="traitement.php" method="post">
+      <label for="text">Availability:</label>
+      <select name="Disponibility">
+        <option value="Monday" selected="Disponibility">Monday</option>
+        <option value="thuesday">Thuesday</option>
+        <option value="wednesday">Wednesday</option>
+        <option value="thurstday">Thursday</option>
+        <option value="Friday">Friday</option>
+      </select>
+      <select name="hour">
+        <option value="morning" selected="am">9h15-12h15</option>
+        <option value="pm">13h30-17h00</option>
+      </select>
+    </form>
+    <fieldset>
 
             
             <form action="traitement.php" method="post">
@@ -111,8 +111,8 @@
             </article>
 
             
-                <article>
-                        <h3>Comment nous suivre?</h3>
+                <article id="articlefooter">
+                        <h3>Nous suivre?</h3>
                     
                         <a href="#"><figure><img src="img/f.jpg" alt="facebook"></figure></a>
                         <a href="#"><figure><img src="img/tx.png" alt="twitter"></figure></a>
@@ -120,7 +120,9 @@
                         <a href="#"><figure><img src="img/in.jpeg" alt="linkein"></figure></a>
                 
                 </article>
-           
+                </div>
+
+           <div id="footermobnav">
             <article>
                 <h3>Partenaire</h3>
 
@@ -134,6 +136,7 @@
 
             </article>
 
+            </div>
             </div>
             <!-- end footer -->
 

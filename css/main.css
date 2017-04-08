@@ -94,8 +94,22 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
- 
+   *{
+    margin: 0;
+    padding: 0;
+   }
+   img{
+    max-width: 100%;
+   }
+   body{
+    width: 90%;
+   }
 
+    #footermobnav{
+      display: none;
+    }
+
+  
   iframe{
     border:0;
     width: 100%;
@@ -103,28 +117,8 @@ textarea {
     margin-top: 3em;
   }
 
-  input, textarea, select, button {
-  margin: 0;
-
-  -webkit-box-sizing: border-box; /* Pour les anciennes versions des navigateurs WebKit */
-     -moz-box-sizing: border-box; /* Pour tous les navigateurs Gecko */
-          box-sizing: border-box;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
    /*footer desktop*/
-   .footer{
+   .footer,#footermobnav{
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -132,11 +126,9 @@ textarea {
 
    }
    .footer img{
-    width: 5%;
+    width: 8%;
    }
-   .footer article{
-    width:23%;
-   }
+
   .footer p{
     font-size: 13px;
     color: #fff;
@@ -144,10 +136,10 @@ textarea {
   .footer figure{
     margin:0;
   }
-  .footer h3{
+  .footer h3,#footermobnav{
     font-size: 15px;
     color: #fff;
-    border-bottom: 1px solid #fff ;
+    border-bottom: 1px solid orange ;
   }
 
    header {
@@ -163,65 +155,17 @@ box-shadow: 5px 6px 1px silver;
 nav {
   width: 100%;
 display: flex;
+}
 /*end*/
 
-<<<<<<< HEAD
-=======
-   header {
-     display: flex;
-   }
-
-    #logo {
-      width: 141px;
-border-radius: 56px;
-box-shadow: 5px 6px 1px silver;
+@media (min-width: 768px) {
+  #footermobnav>nav{
+      display: block;
     }
-
-nav {
-  width: 100%;
-display: flex;
-
->>>>>>> a2829be1fbca0c16df0b57655ce923de8afcd912
-}
-
-nav ul {
+footer {
   display: flex;
-width: 100%;
-justify-content: space-between;
-list-style-type: none;
-align-items: center;
-border-top: 6px double black;
-border-bottom: 6px double black;
-margin-right: 3%;
 }
-<<<<<<< HEAD
-
-nav ul li {
-  width: 15%;
 }
-
-=======
-
-nav ul li {
-  width: 15%;
-}
-
->>>>>>> a2829be1fbca0c16df0b57655ce923de8afcd912
-nav ul li a {
-  text-decoration: none;
-  color: black;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
