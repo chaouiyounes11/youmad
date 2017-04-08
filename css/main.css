@@ -105,7 +105,25 @@ textarea {
     width: 90% auto;
    }
 
+   /* start page team 368px*/
+
+   .containermadteam h1, .containermadteam h2{
+    text-align: center;
+    background-color:red;    
+   }
+
+   .containermadteam img{
+    border-radius: 100%;
+   }
+   #faceyou,#facemad  {
+    text-align: center;
+   }
+
+   /*end tean 360px*/
+
    
+
+   /* start team 768px*/
 
    /*start footer 368px*/
    footer{
