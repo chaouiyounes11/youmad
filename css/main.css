@@ -125,15 +125,60 @@ textarea {
   .footer figure{
     width: 10%;
   }
+
+  .footer img:hover,a:hover{
+    background-color: orange;
+  }
   .footer article{
     width: 50%;
 
   }
 
-
+  /*start media 768px*/
   @media (min-width: 768px) {
+     #footermobnav{
+      display: block;
+      background-color: black;
+      display: flex;
+    }
+  
     
+     #footermobnav article{
+      width: 50%;
+    }
+
+    footer{
+      display: flex;
+      align-content: space-around;
+    }
+    
+    iframe{
+      margin-top: 4em;
+      width: 80%;
+    }
   }
+  /*end 768px*/
+
+
+/*medai start 1024px*/
+  @media (min-width: 1024px){
+    #articlefooter figure{
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+    }
+
+    #articlefooter img{
+    width: 50%;
+    flex-direction: row;
+    }
+
+    iframe{
+      
+      width: 60%;
+    }
+  }
+
 
   
  
