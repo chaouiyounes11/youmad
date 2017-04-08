@@ -104,6 +104,8 @@ textarea {
    body{
     width: 90% auto;
    }
+
+   /*start footer 368px*/
    footer{
     background-color: black;
    }
@@ -133,6 +135,8 @@ textarea {
     width: 50%;
 
   }
+/*end footer 360px*/
+
 
   /*start media 768px*/
   @media (min-width: 768px) {
@@ -179,81 +183,7 @@ textarea {
     }
   }
 
-
-  
- 
-
-   /*footer desktop*/
-  /* .footer{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    background-color: #191919;
-
-   }
-   .footer img{
-    width: 10%;
-   }
-   .footer figure{
-    margin: 0 auto;
-
-   }
-
-  .footer p{
-    font-size: 13px;
-    color: #fff;
-
-  }
-  input{
-    width: 25%;
-  }
-  
-   header {
-     display: flex;
-   }
-
-    #logo {
-      width: 141px;
-      border-radius: 56px;
-      box-shadow: 5px 6px 1px silver;
-    }
-
-nav {
-  width: 100%;
-display: flex;
-}*/
-/*end*/
-
-
-/*@media (min-width: 768px) {
-  #footermobnav nav{
-      display: block;
-    }
-footer {
-  display: flex;
-  margin-top: 5px;
-  height: ;
-}
-footer figure{
-  height: 20px;
-  width: 31%;
-}
-#footermobnav{
-    width: 100%;
-    display: flex;
-    background-color: #191919;
-
-   }
-footer p{
-font-size:15px;
-color: #fff;
-}
-iframe{
-    border:0;
-    width: 50%;
-    margin-top: 5em;
-  }
-}*/
+/*end 1024px*/
 
 
 
