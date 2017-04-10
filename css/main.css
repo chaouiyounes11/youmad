@@ -113,6 +113,14 @@ textarea {
     font-size: 50PX;
        
    }
+    header p{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+   }
+   strong{
+    color: orange;
+   }
 
    .containermadteam img{
     border-radius: 100%;
@@ -171,6 +179,9 @@ textarea {
 /*  start team.html 768px*/
   .containermadteam{
     display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
   
     
