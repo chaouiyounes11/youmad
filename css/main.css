@@ -183,8 +183,26 @@ textarea {
     justify-content: center;
 
   }
+  fieldset{
+    border: 1px solid #000;
+    margin:2px;
+    box-shadow: 1px 1px orange;
+  }
+  .formcivility{
+    display: flex;
+  }
+  form label{
+    width: 35%;
+  }
   
-    
+   form{
+    width: 60%;
+    display: flex;
+
+   } 
+   form input {
+    width: 100%;
+   }
 
 
     /*start footer 768px*/
