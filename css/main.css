@@ -107,7 +107,7 @@ textarea {
 
    /* start page team 368px*/
 
-   .containermadteam h1, .containermadteam h2{
+   h1, h2{
     text-align: center;
     background-color:red;    
    }
@@ -121,9 +121,9 @@ textarea {
 
    /*end tean 360px*/
 
-   
 
-   /* start team 768px*/
+
+   
 
    /*start footer 368px*/
    footer{
@@ -158,8 +158,23 @@ textarea {
 /*end footer 360px*/
 
 
-  /*start media 768px*/
-  @media (min-width: 768px) {
+
+
+
+  
+
+  /*start media queries 768px*/
+  @media (min-width: 768px){
+
+/*  start team.html 768px*/
+  .containermadteam{
+    display: flex;
+  }
+  
+    
+
+
+    /*start footer 768px*/
      #footermobnav{
       display: block;
       background-color: black;
@@ -184,7 +199,11 @@ textarea {
   /*end 768px*/
 
 
-/*medai start 1024px*/
+/*media start 1024px*/
+
+
+
+/*media footer 1024px*/
   @media (min-width: 1024px){
     #articlefooter figure{
       margin: 0;
