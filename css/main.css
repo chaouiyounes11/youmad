@@ -95,16 +95,291 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+    * {
+      margin: 0;
+      padding: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  figure #logo {
+    width: 30%;
+    margin: auto;
+display: flex;
+  }
+#desk {
+  display: none;
+}
+
+.office img {
+  display: none;
+}
+
+
+
+.logo {
+  margin: auto;
+width: 100%;
+
+}
+
+.deroulant{
+  margin-top: 4%;
+width: 20%;
+margin-left: 3%;
+}
+
+#quote {
+  font-size: 26px;
+  font-style: italic;
+  text-align: center;
+  border-top: 3px solid orange;
+  border-bottom: 3px solid orange;
+  margin: 8% 12% 8% 12%;
+  padding: 3% 0;
+}
+  #menu-deroulant, #menu-deroulant ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  #menu-deroulant {
+  /* on centre le menu dans la page */
+      text-align: left;
+  }
+  #menu-deroulant li {
+  /* on place les liens du menu horizontalement */
+      display: inline-block;
+  }
+  #menu-deroulant ul li {
+  /* on enlève ce comportement pour les liens du sous menu */
+      display: inherit;
+  }
+  #menu-deroulant a {
+      text-decoration: none;
+      display: block;
+  	color:white;
+    background-color: #F69441;
+    padding: .6em;
+    border-radius: 10px;
+  }
+  #menu-deroulant ul {
+      position: absolute;
+  /* on cache les sous menus complètement sur la gauche */
+      left: -999em;
+      text-align: left;
+      z-index: 1000;
+  }
+  #menu-deroulant li:hover ul {
+  /* Au survol des li du menu on replace les sous menus */
+      left: auto;
+  }
+
+  #menu-deroulant .white a {
+    background-color: white;
+    border: 2px solid #F69441;
+    color: black;
+    text-align: center;
+    padding: 10px 0px;
+margin: 0.8px 19px;
+  }
+
+#menu-deroulant .white a:hover {
+  background-color: #F69441;
+  color: white;
+}
+
+  .projet article p {
+    display: none;
+  }
+
+  article {
+    width: 65%;
+  }
+
+  h3 {
+    color: #F69441;
+    text-align: center;
+  }
+
+  .projet {
+    display: flex;
+    margin-top: 20%;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .projet figure {
+    width: 80%;
+  }
+
+  figcaption {
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  /*-----PAGE PRESTATION------*/
+
+  section p {
+
+    text-align: center;
+    margin-top: 4%;
+    font-size: 42px;
+    background-color: #FBB03B;
+    color: white;
+    font-weight: bold;
+  }
+
+  em {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  #presta h2, #presta h4 {
+    margin-left: 4%;
+    margin-bottom: 3%;
+  }
+
+  #presta #para {
+    font-size: 1em;
+    margin: 4%;
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-weight: 200;
+  }
+
+  #presta a {
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  #presta a #pub {
+  margin: 6%;
+  font-size: 15px;
+  padding: 18%;
+  font-weight: 200;
+  }
+
+  #presta a #pub:hover {
+    background-color: #E9E9E9;
+    color: #FBB03B;
+    font-weight: bolder;
+  }
+
+@media (min-width: 768px){
+
+  #menu-deroulant {
+    display: none;
+  }
+
+  header {
+    display: block;
+  }
+
+  #desk {
+    width: 100%;
+  display: flex;
+
+  }
+
+  #desk ul {
+    display: flex;
+    width: 74%;
+    list-style-type: none;
+    margin: auto;
+    justify-content: space-between;
+    border-bottom: 3px solid #F69441;
+  padding-bottom: 15px;
+  }
+
+  #desk ul li {
+    width: 15%;
+    display: flex;
+  flex-direction: column;
+  }
+
+  #desk ul li a {
+    text-decoration: none;
+    display: flex;
+  justify-content: center;
+  color: #818682;
+  margin-bottom: 2px;
+  }
+
+  #desk ul li a:hover {
+    border: 2px solid #F69441;
+    border-radius: 5px;
+  }
+
+  .material-icons {
+    display: none;
+  }
+
+  .office{
+    margin: 0;
+    padding: 0;
+  }
+
+  .office img {
+    display: block;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  article {
+    width: 33%;
+  }
+
+  h3 {
+    color: #F69441;
+    text-align: center;
+  }
+
+  .projet {
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .projet figure {
+    width: 80%;
+  }
+
+  figcaption {
+    display: none;
+  }
+
+  p {
+    display: block;
+  }
+
+  section #crayon {
+    margin: auto;
+width: 40%;
+  }
+
+  #presta h2 {
+    margin-top: 3%;
+  }
+
+  #presta a #pub {
+    margin: 20% 12%;
+  }
+    }
+
+@media (min-width: 980px) {
+
 
    header {
      display: flex;
    }
 
-    #logo {
-      width: 141px;
-border-radius: 56px;
-box-shadow: 5px 6px 1px silver;
-    }
 
 nav {
   width: 100%;
@@ -114,13 +389,12 @@ display: flex;
 
 nav ul {
   display: flex;
-width: 100%;
-justify-content: space-between;
-list-style-type: none;
-align-items: center;
-border-top: 6px double black;
-border-bottom: 6px double black;
-margin-right: 3%;
+  width: 74%;
+  list-style-type: none;
+  margin: auto;
+  justify-content: space-between;
+  border-bottom: 3px solid #F69441;
+padding-bottom: 15px;
 }
 
 nav ul li {
@@ -131,15 +405,17 @@ flex-direction: column;
 
 nav ul li a {
   text-decoration: none;
-  color: black;
   display: flex;
 justify-content: center;
+color: #818682;
+margin-bottom: 2px;
 }
 
 .material-icons {
   display: flex;
 justify-content: center;
 margin-top: 2%;
+color: #FBB03B;
 }
 
 .office{
@@ -150,7 +426,6 @@ margin-top: 2%;
 .office img {
   display: block;
   background-size: cover;
-  height: 100vh;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -158,24 +433,63 @@ margin-top: 2%;
 
 
 
-p {
-  border: 2px solid black;
-  padding: 4em;
-  margin: 1em;
+
+article {
+  width: 33%;
 }
 
-.fake
-{
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-height: 200px;
-width: 80%;
-margin: auto;
+h3 {
+  color: #F69441;
+  text-align: center;
 }
 
+.projet {
+  display: flex;
+  margin-top: 3%;
+  justify-content: space-around;
+}
 
+.projet figure {
+  width: 80%;
+}
 
+figcaption {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.projet figure:hover {
+  width: 88%;
+}
+#topresta{
+  display: flex;
+}
+#topresta p {
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+section #crayon {
+  width: 30%;
+}
+
+#presta {
+  width: 80%;
+}
+
+#presta #para {
+  width: 60%;
+text-align: justify;
+}
+
+#presta a #pub {
+  margin: 5% 3%;
+  padding: 6%;
+}
+
+}
 
 /* ==========================================================================
    Helper classes
