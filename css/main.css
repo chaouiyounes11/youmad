@@ -94,7 +94,48 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   *{
+    margin: 0;
+    padding: 0;
+   }
+   img{
+    max-width: 100%;
+   }
+   body{
+    width: 90% auto;
+   }
 
+   /* start page team 368px*/
+
+   h1, h2{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 50PX;
+
+   }
+    header p{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+   }
+   strong{
+    color: orange;
+   }
+
+   .containermadteam img{
+    border-radius: 100%;
+   }
+   #faceyou,#facemad  {
+    text-align: center;
+   }
+
+   /*end tean 360px*/
+
+
+
+
+
+<<<<<<< HEAD
     * {
       margin: 0;
       padding: 0;
@@ -380,13 +421,41 @@ width: 40%;
      display: flex;
    }
 
+=======
+   /*start footer 368px*/
+   footer{
+    background-color: black;
+   }
+   footer h3{
+    color:orange;
+   }
 
-nav {
-  width: 100%;
-display: flex;
+   footer p{
+    color: #fff;
+   }
 
-}
+    #footermobnav{
+      display: none;
+    }
+/*>>>>>>> 4673c463b4f711a871c6f4bb347999bdb2134d8b*/
 
+  .footer{
+    display: flex;
+  }
+  .footer figure{
+    width: 10%;
+  }
+
+  .footer img:hover,a:hover{
+    background-color: orange;
+  }
+  .footer article{
+    width: 50%;
+
+  }
+/*end footer 360px*/
+
+/*<<<<<<< HEAD*/
 nav ul {
   display: flex;
   width: 74%;
@@ -430,10 +499,18 @@ color: #FBB03B;
   margin: 0;
   padding: 0;
 }
+=======
+
+
+/*>>>>>>> 4673c463b4f711a871c6f4bb347999bdb2134d8b*/
 
 
 
 
+  /*start media queries 768px*/
+  @media (min-width: 768px){
+
+/*<<<<<<< HEAD*/
 article {
   width: 33%;
 }
@@ -442,6 +519,32 @@ h3 {
   color: #F69441;
   text-align: center;
 }
+/*=======*/
+/*  start team.html 768px*/
+  .containermadteam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .formcivility{
+    display: flex;
+
+  }
+  form label{
+    width: 35%;
+  }
+
+   form{
+    width: 60%;
+    display: flex;
+
+   }
+   form input {
+    width: 100%;
+   }
+/*>>>>>>> 4673c463b4f711a871c6f4bb347999bdb2134d8b*/
 
 .projet {
   display: flex;
@@ -449,9 +552,35 @@ h3 {
   justify-content: space-around;
 }
 
+/*<<<<<<< HEAD*/
 .projet figure {
   width: 80%;
 }
+/*=======*/
+    /*start footer 768px*/
+     #footermobnav{
+      display: block;
+      background-color: black;
+      display: flex;
+    }
+
+
+     #footermobnav article{
+      width: 50%;
+    }
+
+    footer{
+      display: flex;
+      align-content: space-around;
+    }
+
+    iframe{
+      margin-top: 4em;
+      width: 80%;
+    }
+  }
+  /*end 768px*/
+/*>>>>>>> 4673c463b4f711a871c6f4bb347999bdb2134d8b*/
 
 figcaption {
   text-align: center;
@@ -471,9 +600,13 @@ align-items: center;
 justify-content: center;
 }
 
+/*<<<<<<< HEAD*/
 section #crayon {
   width: 30%;
 }
+/*=======*/
+/*media start 1024px*/
+/*>>>>>>> 4673c463b4f711a871c6f4bb347999bdb2134d8b*/
 
 #presta {
   width: 80%;
@@ -484,10 +617,68 @@ section #crayon {
 text-align: justify;
 }
 
+<<<<<<< HEAD
 #presta a #pub {
   margin: 5% 3%;
   padding: 6%;
 }
+=======
+/*media footer 1024px*/
+  @media (min-width: 1024px){
+    #articlefooter figure{
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .footer p {
+      color: black;
+    }
+
+    #articlefooter img{
+    width: 50%;
+    flex-direction: row;
+    }
+
+    iframe{
+
+      width: 60%;
+    }
+    form label{
+      width: 13%;
+    }
+    form input{
+      width: 50%;
+    }
+    .formcivility{
+     width: 30%;
+    }
+/*
+    fieldset{
+   border: none;
+    width: 50%;
+  }
+  .formcivility{
+    display: flex;
+
+  form label{
+    width: 20%;
+  }
+
+   form {
+    width: 70%;
+    display: flex;
+
+   }
+   form input {
+    width: 80%;
+   }*/
+
+  }
+
+/*end 1024px*/
+
+>>>>>>> 4673c463b4f711a871c6f4bb347999bdb2134d8b
 
 }
 

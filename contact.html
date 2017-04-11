@@ -1,0 +1,184 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>YouMad</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+         <link rel="icon" href="logo.jpg">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <header>
+          <nav class="deroulant">
+            <ul id="menu-deroulant">
+              <li><a href="#">Menu</a>
+                <ul>
+                  <li class="white"><a href="#">Accueil</a></li>
+                  <li class="white"><a href="team.html">Team</a></li>
+                  <li class="white"><a href="prestations.html">Prestations</a></li>
+                  <li class="white"><a href="contact.html">Contact</a></li>
+                </ul>
+                </nav>
+              <figure class="logo">
+                <img src="http://marckdesign.net/wp-content/uploads/2015/01/Marck-Design-Logo.png" alt="logo" id="logo">
+              </figure>
+              <nav id="desk">
+                <ul>
+                  <li><a href="index.html">Accueil</a><i class="material-icons">home</i></li>
+                  <li><a href="team.html">Team</a><i class="material-icons">supervisor_account</i></li>
+                  <li><a href="prestations.html">Prestations</a><i class="material-icons">thumb_up</i></li>
+                  <li><a href="contact.html">Contact</a><i class="material-icons">contact_mail</i></li>
+                </ul>
+              </nav>
+            </header>
+
+
+<fieldset>
+  <legend>YouMad</legend>
+  <div class="cont1">
+    <!-- <h1>Agency YouMad</h1> -->
+    <!-- <h3>Making appointements:</h3> -->
+    <form class="formcivility">
+      <label for="radio"> Civility:</label>
+      <input type="radio" name="gender" value="male" checked> Male
+      <input type="radio" name="gender" value="female"> Female
+    </form>
+
+    <form action="traitement.php" method="post">
+      <label for="text" > <i class="material-icons">face</i>first Name:</label>
+      <input type="text" name="text" id="text" placeholder="first-Name"">
+      </form>
+
+
+    <form>
+      <label for="text1" ><i class="material-icons">face</i>last Name:</label>
+      <input type="text" name="text1" id="text1" placeholder="last-name">
+    </form>
+
+
+    <form>
+      <label for="tel" ><i class="material-icons">phone</i> N° Phone:</label>
+      <input type="tel" name="tel" id="tel" placeholder="number:">
+    </form>
+
+      <form>
+      <label for="mail" ><i class="material-icons">email</i>Ent Email:</label>
+      <input type="mail" name="mail" id="mail" placeholder="YouMad@gmail.com">
+      </form>
+
+      <form>
+      <label for="password" > <i class="material-icons">security</i>Password:</label>
+      <input type="password" name="password" id="password" placeholder="password">
+    </form>
+
+
+
+    <form action="traitement.php" method="post">
+      <label for="text">Availability:</label>
+      <select name="Disponibility">
+        <option value="Monday" selected="Disponibility">Monday</option>
+        <option value="thuesday">Thuesday</option>
+        <option value="wednesday">Wednesday</option>
+        <option value="thurstday">Thursday</option>
+        <option value="Friday">Friday</option>
+      </select>
+      <select name="hour">
+        <option value="morning" selected="am">9h15-12h15</option>
+        <option value="pm">13h30-17h00</option>
+      </select>
+    </form>
+    <fieldset>
+
+
+            <form action="traitement.php" method="post">
+              <label for="text3"><i class="material-icons">comment</i></label>
+              <textarea name="text3" id="text3" rows="5" cols="30"> your comment</textarea>
+
+            <button type="button" onclick="alert('Bouton test');">
+            Send
+            </button>
+            </form>
+            </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2528.4761484101664!2d3.189543515739506!3d50.67398617950678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3287c59c98277%3A0xb94f7f54b271bd84!2s94+Rue+L%C3%A9on+Marlot%2C+59100+Roubaix!5e0!3m2!1sfr!2sfr!4v1491664058782" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+
+
+
+        <!-- start footer -->
+        <footer>
+
+            <div class="footer">
+            <article>
+
+                <h3>Présentation</h3>
+                    <p>Création / YouMad de sites web vitrine ou e-commerce en Responsive Design. <br> Utilisation html5, Css3 .Rédaction de contenu, plaquettes, ...</p>
+            </article>
+
+
+                <article id="articlefooter">
+                        <h3>Nous suivre?</h3>
+
+                        <a href="#"><figure><img src="img/f.jpg" alt="facebook"></figure></a>
+                        <a href="#"><figure><img src="img/tx.png" alt="twitter"></figure></a>
+                        <a href="#"><figure><img src="img/ast.png" alt="astagram"></figure></a>
+                        <a href="#"><figure><img src="img/in.jpeg" alt="linkein"></figure></a>
+
+                </article>
+                </div>
+
+           <div id="footermobnav">
+            <article>
+                <h3>Partenaire</h3>
+
+                 <p>Simplon 2017 3em édition Agence YouMad.Tous droits réservés.Mentions égales*YouMad*</p>
+            </article>
+
+            <article>
+                <h3>YouMad</h3>
+
+                    <p>Simplon Roubaix 59100 Roubaix,  FranceTel. 03 00.00.00.00 Mail.<a href="mailto:madjidgo@gmail.com">YouMad</a></p>
+
+            </article>
+
+            </div>
+          </div>
+
+        </footer>
+            <!-- end footer -->
+
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
